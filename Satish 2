@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	int i,x,count;
+	int a[10]={10,20,10,20,30,40};
+	printf("\nEnter the number:");
+	scanf("%d",&x);
+	count=0;
+	for(i=0;i<6;i++)
+	if(a[i]==x)
+	count++;
+	printf("\n%d times",count);
+}
